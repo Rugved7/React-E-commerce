@@ -20,6 +20,6 @@ export const Product = (props) => {
         Add To Cart {cartItemsAmount > 0 && <>({cartItemsAmount})</>}
       </button>
     </div>
-  );
+  );  
 };
 export default Product
